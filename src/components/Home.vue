@@ -2,16 +2,19 @@
     <div class="home">
         Home Page
         <Form />
+        <TheListItems/>
     </div>
 </template>
 
 <script>
 import Form from './Form.vue';
+import TheListItems from './TheListItems.vue';
 
 export default {
     name: 'HelloWorld',
     components: {
         Form,
+    TheListItems,
     },
     props: {
         msg: String,
