@@ -1,5 +1,6 @@
 <template>
     <div class="form">
+        <h2>Добавление товара</h2>
         <div class="wrap">
             <article>
                 <span>
@@ -58,7 +59,7 @@ export default {
 <style>
 .form {
     background: #fffefb;
-    max-width: 332px;
+    width: 332px;
     max-height: 440px;
     border-radius: 4px;
     font-size: 1rem;

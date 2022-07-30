@@ -1,8 +1,11 @@
 <template>
     <div class="home">
-        Home Page
-        <Form />
-        <TheListItems/>
+        <div class="container">
+            <div class="split">
+                <Form />
+                <TheListItems />
+            </div>
+        </div>
     </div>
 </template>
 
@@ -14,7 +17,7 @@ export default {
     name: 'HelloWorld',
     components: {
         Form,
-    TheListItems,
+        TheListItems,
     },
     props: {
         msg: String,
@@ -24,6 +27,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.container {
+}
+.split {
+    display: flex;
+}
 h3 {
     margin: 40px 0 0;
 }
@@ -38,3 +46,4 @@ li {
 a {
     color: #42b983;
 }
+</style>

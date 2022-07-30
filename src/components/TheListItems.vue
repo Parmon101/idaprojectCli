@@ -72,21 +72,19 @@ export default {
 </script>
 <style>
 .wrap {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 .container {
     background: #fffefb;
-
-    padding: 50px;
-
+    padding: 25px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 11px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* grid-column-gap: 11px; */
 
-    grid-auto-rows: minmax(200px, auto);
-    grid-gap: 1rem;
+    /* grid-auto-rows: minmax(350px, auto); */
+    grid-gap: 0.5rem;
 }
 @media (max-width: 1400px) {
     .container {

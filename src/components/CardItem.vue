@@ -30,14 +30,13 @@ export default {
 <style>
 .cart {
     background: #fffefb;
-    max-width: 332px;
-    max-height: 440px;
+    width: 332px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    padding: 4px 14px 50px;
     color: #49485e;
     cursor: pointer;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
 }
 
 .card:hover {
@@ -45,7 +44,7 @@ export default {
 }
 
 .card-content {
-    padding: 0 16px 24px 16px;
+    padding: 0 5px 20px 5px;
     text-align: left;
     color: #3f3f3f;
 }
@@ -61,6 +60,12 @@ export default {
 .card-content > .price {
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+.category__01 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wrapp {
     padding: 16px 0 0 0;
