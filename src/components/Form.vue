@@ -1,11 +1,5 @@
 <template>
     <div class="form">
-<<<<<<< Updated upstream
-        <div class="wrap">
-            <article>
-                <span>
-                    <pub>Наименование товара</pub>
-=======
         <h2>Добавление товара</h2>
         <form @submit.prevent="someAction()">
             <div class="wrap">
@@ -45,7 +39,6 @@
             <div class="wrap">
                 <article>
                     <pub>Цена товара</pub>
->>>>>>> Stashed changes
                     <img alt="red" src="../assets/red.svg" />
                 </article>
                 <input type="text" placeholder="Введите цену" v-model="sendPrice" required />
